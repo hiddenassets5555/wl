@@ -2,3 +2,15 @@ return {
 
 	"752943C0-BEFB-41C2-8472-99CCEB71F440", -- paste users roblox hwid in here
 }
+
+
+
+
+
+-- this is how you get there hwid or your hwid --
+
+--[[
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+setclipboard(HWID)
+print("Your HWID is: " .. HWID)
+]]
